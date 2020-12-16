@@ -12,6 +12,8 @@ namespace MyClassTest
         private const string BAD_FILE_NAME = @"C:\Regedit.exe";
         private string _GoodFileName;
 
+        public TestContext TestContext { get; set; }
+
         public void SetGoodFileName()
         {
             _GoodFileName = ConfigurationManager.AppSettings["GoodFileName"];
@@ -25,11 +27,17 @@ namespace MyClassTest
         public void FileNameDoesExists()
         {
             FileProcess fp = new FileProcess();
+
             bool fromCall;
             SetGoodFileName();
+            TestContext.WriteLine("Creating a file:"+ _GoodFileName);
+
             File.AppendAllText(_GoodFileName, "Some Text");
             fromCall = fp.FileExists(_GoodFileName);
+            TestContext.WriteLine($"Testing File: " + _GoodFileName);
+
             File.Delete(_GoodFileName);
+            TestContext.WriteLine($"Deleting File: " + _GoodFileName);
             Assert.IsTrue(fromCall);
 
         }
