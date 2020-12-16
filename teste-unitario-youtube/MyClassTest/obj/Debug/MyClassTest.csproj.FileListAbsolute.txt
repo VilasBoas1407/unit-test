@@ -14,3 +14,4 @@ D:\Projetos\unit-test\teste-unitario-youtube\MyClassTest\obj\Debug\MyClassTest.c
 D:\Projetos\unit-test\teste-unitario-youtube\MyClassTest\obj\Debug\MyClassTest.csproj.CopyComplete
 D:\Projetos\unit-test\teste-unitario-youtube\MyClassTest\obj\Debug\MyClassTest.dll
 D:\Projetos\unit-test\teste-unitario-youtube\MyClassTest\obj\Debug\MyClassTest.pdb
+D:\Projetos\unit-test\teste-unitario-youtube\MyClassTest\bin\Debug\MyClassTest.dll.config
