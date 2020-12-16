@@ -1,0 +1,6 @@
+D:\Projetos\unit-test\teste-unitario-youtube\MyClass\bin\Debug\MyClass.dll
+D:\Projetos\unit-test\teste-unitario-youtube\MyClass\bin\Debug\MyClass.pdb
+D:\Projetos\unit-test\teste-unitario-youtube\MyClass\obj\Debug\MyClass.csprojAssemblyReference.cache
+D:\Projetos\unit-test\teste-unitario-youtube\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+D:\Projetos\unit-test\teste-unitario-youtube\MyClass\obj\Debug\MyClass.dll
+D:\Projetos\unit-test\teste-unitario-youtube\MyClass\obj\Debug\MyClass.pdb
